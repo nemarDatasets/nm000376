@@ -1,0 +1,49 @@
+{
+  "participant_id": {
+    "Description": "BIDS label = patient label of the release file name (memact_trials_P<N>.mat)"
+  },
+  "source_id": {
+    "Description": "Patient label in the release and in Supplementary Table S1 of Moraresku et al. 2025"
+  },
+  "age": {
+    "Description": "Age in years (Supplementary Table S1)",
+    "Units": "year"
+  },
+  "sex": {
+    "Description": "Gender as reported in Supplementary Table S1",
+    "Levels": {
+      "M": "male",
+      "F": "female"
+    }
+  },
+  "handedness": {
+    "Description": "Handedness (Supplementary Table S1)",
+    "Levels": {
+      "R": "right",
+      "L": "left"
+    }
+  },
+  "education": {
+    "Description": "Highest education level (Supplementary Table S1)",
+    "Levels": {
+      "primary": "primary",
+      "tertiary": "tertiary"
+    }
+  },
+  "epilepsy_duration": {
+    "Description": "Epilepsy duration (Supplementary Table S1)",
+    "Units": "year"
+  },
+  "suspected_seizure_zone": {
+    "Description": "Suspected seizure zone (Supplementary Table S1)"
+  },
+  "epilepsy_pathology": {
+    "Description": "Epilepsy pathology (Supplementary Table S1; FCD = focal cortical dysplasia)"
+  },
+  "group": {
+    "Description": "Patients with drug-resistant epilepsy undergoing iEEG monitoring",
+    "Levels": {
+      "patient": "epilepsy patient"
+    }
+  }
+}

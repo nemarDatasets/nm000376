@@ -1,0 +1,65 @@
+{
+  "Name": "Intracranial EEG from 9 adults during a memory-guided actions experiment (preprocessed epochs, Moraresku et al.)",
+  "BIDSVersion": "1.10.0",
+  "DatasetType": "derivative",
+  "License": "CC-BY-4.0",
+  "Authors": [
+    "Sofiia Moraresku",
+    "Jiri Hammer",
+    "Vasileios Dimakopoulos",
+    "Michaela Kajsova",
+    "Radek Janca",
+    "Petr Jezdik",
+    "Adam Kalina",
+    "Petr Marusic",
+    "Kamil Vlcek"
+  ],
+  "Acknowledgements": "Data release: Zenodo record 13712628 (creator: Sofiia Moraresku). Re-packaged in BIDS by the ieeg-nemar-20261005 campaign (batch-2 Zenodo lane) without further processing.",
+  "HowToAcknowledge": "Please cite Moraresku S, Hammer J, Dimakopoulos V, Kajsova M, Janca R, Jezdik P, Kalina A, Marusic P, Vlcek K (2025) Neural Dynamics of Visual Stream Interactions During Memory-Guided Actions Investigated by Intracranial EEG. Neurosci Bull 41(8):1347-1363. doi:10.1007/s12264-025-01371-x, and the data record doi:10.5281/zenodo.13712628.",
+  "Funding": [
+    "European Union - Next Generation EU (LX22NPO5107 (MEYS))",
+    "Czech Science Foundation (20-21339S)",
+    "Grant Agency of Charles University (GAUK 248122 and 272221)",
+    "ERDF-Project Brain Dynamics (CZ.02.01.01/00/22_008/0004643)",
+    "Ministry of Health of the Czech Republic Project NU21J-08-00081"
+  ],
+  "EthicsApprovals": [
+    "All the patients signed informed consent to participate, and the study was approved by the Ethics Committee of Motol University Hospital (Moraresku et al. 2025)."
+  ],
+  "ReferencesAndLinks": [
+    "https://doi.org/10.1007/s12264-025-01371-x",
+    "https://doi.org/10.1007/s12264-025-01453-w",
+    "https://doi.org/10.1101/2024.08.20.608807",
+    "https://doi.org/10.5281/zenodo.13712628",
+    "https://github.com/kamilvlcek/iEEG_scripts/tree/v3.1.0"
+  ],
+  "DatasetDOI": "doi:10.5281/zenodo.13712628",
+  "Keywords": [
+    "intracranial EEG",
+    "stereo-EEG",
+    "working memory",
+    "memory-guided action",
+    "dorsal stream",
+    "ventral stream",
+    "hippocampus",
+    "epilepsy"
+  ],
+  "GeneratedBy": [
+    {
+      "Name": "Authors' preprocessing (Moraresku et al. 2025)",
+      "Description": "Recorded at 2048 Hz (Quantum, NeuroWorks), downsampled to 512 Hz; notch 4th-order Butterworth band-stop 1 Hz wide at 50 Hz and harmonics, zero phase; removal of faulty/epileptic contacts; bipolar referencing between adjacent contacts; epoching -2 to 7.898 s around encoding onset; per-channel epoch rejection labels.",
+      "CodeURL": "https://github.com/kamilvlcek/iEEG_scripts/tree/v3.1.0"
+    },
+    {
+      "Name": "b2zen_convert039.py",
+      "Description": "BIDS packaging: epochs written back to back to BrainVision float32 (RecordingType=epoched), trial table to events.tsv, channelInfo to channels/electrodes; no signal processing."
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.5281/zenodo.13712628",
+      "URL": "https://zenodo.org/records/13712628",
+      "Version": "Zenodo record 13712628 (published 2024-10-29)"
+    }
+  ]
+}

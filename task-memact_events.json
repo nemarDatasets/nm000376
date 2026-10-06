@@ -1,0 +1,81 @@
+{
+  "onset": {
+    "Description": "Encoding onset (time 0 of the authors' epoch) in seconds from the start of the concatenated file"
+  },
+  "duration": {
+    "Description": "Encoding phase duration (2 s, Moraresku et al. 2025)",
+    "Units": "s"
+  },
+  "sample": {
+    "Description": "0-based sample of the encoding onset in the concatenated file"
+  },
+  "trial_type": {
+    "Description": "Event type",
+    "Levels": {
+      "encoding": "Encoding onset of one trial (one epoch)"
+    }
+  },
+  "epoch": {
+    "Description": "Epoch number (1-based) = position of the trial in data.trial"
+  },
+  "epoch_onset": {
+    "Description": "Start of this epoch (authors' time -2 s) in the concatenated file",
+    "Units": "s"
+  },
+  "TrialNumber": {
+    "Description": "TrialInformationTable.TrialNumber (verbatim)"
+  },
+  "Condition": {
+    "Description": "TrialInformationTable.Condition",
+    "Levels": {
+      "2": "same objects (remember position)",
+      "3": "different objects (remember position and identity)"
+    }
+  },
+  "Correct": {
+    "Description": "Whether the joystick response was correct (TrialInformationTable.Correct)",
+    "Levels": {
+      "0": "incorrect",
+      "1": "correct"
+    }
+  },
+  "ResponseTime": {
+    "Description": "Time of reaching response by joystick (TrialInformationTable.ResponseTime, verbatim; negative values occur in the source and are not interpreted here)",
+    "Units": "s"
+  },
+  "Block": {
+    "Description": "Block number (TrialInformationTable.Block)"
+  },
+  "Training": {
+    "Description": "Training trial flag (TrialInformationTable.Training)",
+    "Levels": {
+      "0": "test trial",
+      "1": "training trial"
+    }
+  },
+  "DelayLength": {
+    "Description": "Precise length of the delay phase (TrialInformationTable.DelayLength)",
+    "Units": "s"
+  },
+  "AnswerButtonCorrect": {
+    "Description": "Correctness of the identity button response (different condition only)",
+    "Levels": {
+      "0": "incorrect",
+      "1": "correct"
+    }
+  },
+  "AnswerButtonRT": {
+    "Description": "Time of the identity button response (different condition only), as stored",
+    "Units": "s"
+  },
+  "Trials2Reject": {
+    "Description": "Authors' trial rejection flag (TrialInformationTable.Trials2Reject)",
+    "Levels": {
+      "0": "kept",
+      "1": "rejected by the authors"
+    }
+  },
+  "n_channels_rejected": {
+    "Description": "Number of channels flagged as rejected for this epoch in data.RjEpochChannel"
+  }
+}

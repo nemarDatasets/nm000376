@@ -1,0 +1,29 @@
+{
+  "TaskName": "memact",
+  "TaskDescription": "Delayed memory-guided action task: fixation (1.9-2.1 s), encoding (2 s; one object, triangle or square, shown at one of several positions), jittered delay (3.9-4.1 s), action/recall (2 s; joystick reach to the remembered position). Condition 2 'same' (remember position) / 3 'different' (remember position and identity, followed by a 2-alternative button question). Blocks of 10 trials; training trials first.",
+  "InstitutionName": "Motol University Hospital, Motol Epilepsy Center",
+  "InstitutionAddress": "Prague, Czechia",
+  "ManufacturersModelName": "Quantum, NeuroWorks (medical amplifiers named in Moraresku et al. 2025)",
+  "SamplingFrequency": 512.0,
+  "PowerLineFrequency": 50,
+  "SoftwareFilters": {
+    "Downsampling": {
+      "Description": "Recorded at 2048 Hz, downsampled to 512 Hz by the authors"
+    },
+    "NotchFilter": {
+      "Description": "4th-order Butterworth band-stop, 1 Hz wide, centred at 50 Hz and harmonics, zero phase (authors)"
+    }
+  },
+  "HardwareFilters": "n/a",
+  "iEEGReference": "Bipolar derivations between adjacent contacts (authors). Recording reference: a white-matter contact per patient.",
+  "ElectrodeManufacturer": "DIXI Medical Instruments",
+  "iEEGElectrodeInfo": "Semi-rigid depth electrodes, diameter 0.8 mm, 8-18 contacts of 2 mm length, 1.5 mm apart; 11-15 electrodes per patient",
+  "iEEGPlacementScheme": "Stereotactic depth electrodes placed solely for clinical pre-surgical evaluation",
+  "SEEGChannelCount": 182,
+  "ECOGChannelCount": 0,
+  "EEGChannelCount": 0,
+  "MiscChannelCount": 0,
+  "RecordingType": "epoched",
+  "EpochLength": 9.900390625,
+  "RecordingDuration": 1683.06640625
+}

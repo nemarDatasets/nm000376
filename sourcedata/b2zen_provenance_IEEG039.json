@@ -1,0 +1,161 @@
+{
+  "runs": [
+    {
+      "sub": "P1",
+      "source": "memact_trials_P1.mat",
+      "n_epochs": 170,
+      "n_channels": 190,
+      "samples_per_epoch": 5069,
+      "time0_index": 1024,
+      "epoch_time_range_s": [
+        -2.0,
+        7.8984375
+      ],
+      "n_rejected_flags": 2954,
+      "signal_types": [
+        "SEEG"
+      ]
+    },
+    {
+      "sub": "P2",
+      "source": "memact_trials_P2.mat",
+      "n_epochs": 170,
+      "n_channels": 182,
+      "samples_per_epoch": 5069,
+      "time0_index": 1024,
+      "epoch_time_range_s": [
+        -2.0,
+        7.8984375
+      ],
+      "n_rejected_flags": 8566,
+      "signal_types": [
+        "SEEG"
+      ]
+    },
+    {
+      "sub": "P3",
+      "source": "memact_trials_P3.mat",
+      "n_epochs": 170,
+      "n_channels": 109,
+      "samples_per_epoch": 5069,
+      "time0_index": 1024,
+      "epoch_time_range_s": [
+        -2.0,
+        7.8984375
+      ],
+      "n_rejected_flags": 6698,
+      "signal_types": [
+        "SEEG"
+      ]
+    },
+    {
+      "sub": "P4",
+      "source": "memact_trials_P4.mat",
+      "n_epochs": 170,
+      "n_channels": 149,
+      "samples_per_epoch": 5069,
+      "time0_index": 1024,
+      "epoch_time_range_s": [
+        -2.0,
+        7.8984375
+      ],
+      "n_rejected_flags": 4210,
+      "signal_types": [
+        "SEEG"
+      ]
+    },
+    {
+      "sub": "P5",
+      "source": "memact_trials_P5.mat",
+      "n_epochs": 170,
+      "n_channels": 115,
+      "samples_per_epoch": 5069,
+      "time0_index": 1024,
+      "epoch_time_range_s": [
+        -2.0,
+        7.8984375
+      ],
+      "n_rejected_flags": 4761,
+      "signal_types": [
+        "SEEG"
+      ]
+    },
+    {
+      "sub": "P6",
+      "source": "memact_trials_P6.mat",
+      "n_epochs": 170,
+      "n_channels": 171,
+      "samples_per_epoch": 5069,
+      "time0_index": 1024,
+      "epoch_time_range_s": [
+        -2.0,
+        7.8984375
+      ],
+      "n_rejected_flags": 9142,
+      "signal_types": [
+        "SEEG"
+      ]
+    },
+    {
+      "sub": "P7",
+      "source": "memact_trials_P7.mat",
+      "n_epochs": 170,
+      "n_channels": 115,
+      "samples_per_epoch": 5069,
+      "time0_index": 1024,
+      "epoch_time_range_s": [
+        -2.0,
+        7.8984375
+      ],
+      "n_rejected_flags": 1249,
+      "signal_types": [
+        "SEEG"
+      ]
+    },
+    {
+      "sub": "P8",
+      "source": "memact_trials_P8.mat",
+      "n_epochs": 170,
+      "n_channels": 174,
+      "samples_per_epoch": 5069,
+      "time0_index": 1024,
+      "epoch_time_range_s": [
+        -2.0,
+        7.8984375
+      ],
+      "n_rejected_flags": 10566,
+      "signal_types": [
+        "SEEG"
+      ]
+    },
+    {
+      "sub": "P9",
+      "source": "memact_trials_P9.mat",
+      "n_epochs": 170,
+      "n_channels": 168,
+      "samples_per_epoch": 5069,
+      "time0_index": 1024,
+      "epoch_time_range_s": [
+        -2.0,
+        7.8984375
+      ],
+      "n_rejected_flags": 5130,
+      "signal_types": [
+        "SEEG"
+      ]
+    }
+  ],
+  "copied": [
+    "zenodo-13712628/memact_iEEG_data/memact_trials_P1.mat",
+    "zenodo-13712628/memact_iEEG_data/memact_trials_P2.mat",
+    "zenodo-13712628/memact_iEEG_data/memact_trials_P3.mat",
+    "zenodo-13712628/memact_iEEG_data/memact_trials_P4.mat",
+    "zenodo-13712628/memact_iEEG_data/memact_trials_P5.mat",
+    "zenodo-13712628/memact_iEEG_data/memact_trials_P6.mat",
+    "zenodo-13712628/memact_iEEG_data/memact_trials_P7.mat",
+    "zenodo-13712628/memact_iEEG_data/memact_trials_P8.mat",
+    "zenodo-13712628/memact_iEEG_data/memact_trials_P9.mat",
+    "zenodo-13712628/data_description.docx",
+    "zenodo-13712628/zenodo_record_13712628.json"
+  ]
+}

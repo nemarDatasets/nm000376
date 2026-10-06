@@ -1,0 +1,14 @@
+{
+  "source_label": {
+    "Description": "Channel label exactly as in data.label of the release"
+  },
+  "number_on_amplifier": {
+    "Description": "channelInfo.numberOnAmplifier of the release (amplifier input of the first contact of the pair, as stored)"
+  },
+  "n_epochs_rejected": {
+    "Description": "Number of epochs flagged as rejected for this channel in data.RjEpochChannel"
+  },
+  "rejected_epochs": {
+    "Description": "Epoch numbers (1-based, = events.tsv epoch) flagged as rejected for this channel in data.RjEpochChannel (authors' labels; data are NOT removed)"
+  }
+}
