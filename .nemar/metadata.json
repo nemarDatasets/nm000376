@@ -1,0 +1,125 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Sofiia Moraresku": {
+      "orcid": "0000-0003-2378-9377"
+    },
+    "Jiri Hammer": {},
+    "Vasileios Dimakopoulos": {},
+    "Michaela Kajsova": {},
+    "Radek Janca": {},
+    "Petr Jezdik": {},
+    "Adam Kalina": {},
+    "Petr Marusic": {},
+    "Kamil Vlcek": {
+      "orcid": "0000-0001-7152-3093"
+    }
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.13712628",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.1007/s12264-025-01371-x",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1007/s12264-025-01453-w",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1101/2024.08.20.608807",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000376",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000376",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "European Union - Next Generation EU",
+      "award_number": "LX22NPO5107"
+    },
+    {
+      "funder_name": "Czech Science Foundation",
+      "award_number": "20-21339S"
+    },
+    {
+      "funder_name": "Grant Agency of Charles University",
+      "award_number": "GAUK 248122 and 272221"
+    },
+    {
+      "funder_name": "ERDF",
+      "award_number": "CZ.02.01.01/00/22_008/0004643",
+      "award_title": "Brain Dynamics"
+    },
+    {
+      "funder_name": "Ministry of Health of the Czech Republic",
+      "award_number": "NU21J-08-00081"
+    }
+  ],
+  "title": "Intracranial EEG from 9 adults during a memory-guided actions experiment (preprocessed epochs, Moraresku et al.)",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "ieeg"
+  ],
+  "resource_type_specific": "iEEG Dataset",
+  "sizes": [
+    "12.91 GB (28 files)"
+  ],
+  "formats": [
+    ".docx",
+    ".eeg",
+    ".json",
+    ".mat",
+    ".md",
+    ".tsv",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "Stereo-EEG recordings from nine patients with drug-resistant epilepsy performing a delayed memory-guided action task at the Motol Epilepsy Center in Prague. This derivative dataset re-packages the authors' preprocessed, bipolar-referenced epochs (512 Hz, time-locked to encoding onset) in BIDS format. It supports investigation of interactions between dorsal and ventral visual streams and the hippocampus during working memory and memory-guided actions.",
+  "methods_description": "Stereo-EEG was recorded at 2048 Hz (Quantum, NeuroWorks) and downsampled to 512 Hz. A 50 Hz notch filter with harmonics was applied, faulty or epileptic contacts were removed, and bipolar referencing was used between adjacent contacts. Epochs ran from -2 to 7.898 s around encoding onset. In the task, participants encoded an object at one position, waited through a delay, then reached to the remembered position with a joystick. Stimuli were presented with PsychoPy3, and task and iEEG were synchronised by TTL pulses.",
+  "keywords": [
+    {
+      "term": "intracranial EEG"
+    },
+    {
+      "term": "stereo-EEG"
+    },
+    {
+      "term": "working memory"
+    },
+    {
+      "term": "memory-guided action"
+    },
+    {
+      "term": "Hippocampus",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D006624"
+    },
+    {
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
+    },
+    {
+      "term": "dorsal and ventral visual streams"
+    }
+  ],
+  "source_hash": "fa68bf5686c218524d0d2bed79cc9022fdb62f7a8a23e26215a6f948afaf32d1"
+}
