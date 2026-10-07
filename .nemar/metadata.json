@@ -1,21 +1,65 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "Intracranial EEG from 9 adults during a memory-guided actions experiment (preprocessed epochs, Moraresku et al.)",
+  "description": "Preprocessed stereo-EEG epochs from 9 patients with drug-resistant epilepsy at the Motol Epilepsy Center in Prague, recorded during a delayed memory-guided action task. Participants remembered the position, and in some blocks the identity, of visual objects and then reached toward the remembered location with a joystick. The data are a BIDS derivative of the authors' Zenodo release. They contain bipolar-referenced epochs (-2 to 7.9 s around encoding onset), per-channel rejection labels, trial tables and MNI electrode coordinates. The recordings cover the inferior parietal lobule, ventral temporal cortex and hippocampus.",
+  "methods_description": "Semi-rigid depth electrodes (DIXI Medical) were implanted for clinical pre-surgical evaluation. Signals were recorded with Quantum NeuroWorks amplifiers at 2048 Hz and downsampled to 512 Hz. Preprocessing applied a 50 Hz notch filter with harmonics, removal of faulty and seizure-onset-zone contacts, and bipolar referencing between adjacent contacts. Data were then epoched around encoding onset. The task was presented with PsychoPy3 and synchronized to the iEEG with TTL pulses. Contacts were localized from post-implantation CT co-registered to MRI and normalized to MNI space with SPM12.",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
   "authors": {
     "Sofiia Moraresku": {
       "orcid": "0000-0003-2378-9377"
     },
-    "Jiri Hammer": {},
-    "Vasileios Dimakopoulos": {},
+    "Jiri Hammer": {
+      "orcid": "0000-0002-8458-1273"
+    },
+    "Vasileios Dimakopoulos": {
+      "orcid": "0000-0001-9490-565X"
+    },
     "Michaela Kajsova": {},
-    "Radek Janca": {},
-    "Petr Jezdik": {},
-    "Adam Kalina": {},
-    "Petr Marusic": {},
+    "Radek Janca": {
+      "orcid": "0000-0003-0825-1069"
+    },
+    "Petr Jezdik": {
+      "orcid": "0000-0001-8932-0497"
+    },
+    "Adam Kalina": {
+      "orcid": "0000-0002-7316-364X"
+    },
+    "Petr Marusic": {
+      "orcid": "0000-0002-1240-653X"
+    },
     "Kamil Vlcek": {
       "orcid": "0000-0001-7152-3093"
     }
   },
+  "keywords": [
+    {
+      "term": "intracranial EEG"
+    },
+    {
+      "term": "stereo-EEG"
+    },
+    {
+      "term": "working memory"
+    },
+    {
+      "term": "memory-guided action"
+    },
+    {
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
+    },
+    {
+      "term": "Hippocampus",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D006624"
+    },
+    {
+      "term": "dorsal and ventral visual streams"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.5281/zenodo.13712628",
@@ -46,6 +90,11 @@
       "identifier": "https://nemar.org/dataset/nm000376",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.5281/zenodo.13712627",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -71,14 +120,11 @@
       "award_number": "NU21J-08-00081"
     }
   ],
-  "title": "Intracranial EEG from 9 adults during a memory-guided actions experiment (preprocessed epochs, Moraresku et al.)",
-  "license": "CC-BY-4.0",
-  "dataset_type": "derivative",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "iEEG Dataset",
   "modalities": [
     "ieeg"
   ],
-  "resource_type_specific": "iEEG Dataset",
   "sizes": [
     "12.91 GB (28 files)"
   ],
@@ -90,36 +136,8 @@
     ".md",
     ".tsv",
     ".vhdr",
-    ".vmrk"
+    ".vmrk",
+    ".yml"
   ],
-  "description": "Stereo-EEG recordings from nine patients with drug-resistant epilepsy performing a delayed memory-guided action task at the Motol Epilepsy Center in Prague. This derivative dataset re-packages the authors' preprocessed, bipolar-referenced epochs (512 Hz, time-locked to encoding onset) in BIDS format. It supports investigation of interactions between dorsal and ventral visual streams and the hippocampus during working memory and memory-guided actions.",
-  "methods_description": "Stereo-EEG was recorded at 2048 Hz (Quantum, NeuroWorks) and downsampled to 512 Hz. A 50 Hz notch filter with harmonics was applied, faulty or epileptic contacts were removed, and bipolar referencing was used between adjacent contacts. Epochs ran from -2 to 7.898 s around encoding onset. In the task, participants encoded an object at one position, waited through a delay, then reached to the remembered position with a joystick. Stimuli were presented with PsychoPy3, and task and iEEG were synchronised by TTL pulses.",
-  "keywords": [
-    {
-      "term": "intracranial EEG"
-    },
-    {
-      "term": "stereo-EEG"
-    },
-    {
-      "term": "working memory"
-    },
-    {
-      "term": "memory-guided action"
-    },
-    {
-      "term": "Hippocampus",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D006624"
-    },
-    {
-      "term": "Epilepsy",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
-    },
-    {
-      "term": "dorsal and ventral visual streams"
-    }
-  ],
-  "source_hash": "fa68bf5686c218524d0d2bed79cc9022fdb62f7a8a23e26215a6f948afaf32d1"
+  "source_hash": "2047da4c397e1d0e2139e6c056b301f89da4f27c23b45f1f82f21855468d22f5"
 }
