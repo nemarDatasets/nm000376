@@ -1,2 +1,5 @@
+1.0.1 2026-10-07
+  - 2026-10-07 metadata enrichment: participants.tsv gains release-derived bipolar-channel, electrode-label and MNI left/right channel counts; participants.json cohort notes; dataset_description.json adds paper acknowledgements, concept DOI, PMC link, keywords; task-memact_events.json adds Condition definitions from the paper, onset units and StimulusPresentation; *_ieeg.json TaskDescription corrected (two objects at encoding, per paper Methods) and Instructions, iEEGElectrodeGroups, iEEGGround (n/a), trigger/ECG/EOG/EMG counts added; README restructured (cohort, acquisition, preprocessing, caveats incl. sub-P9 hemisphere note). Sources: Moraresku et al. 2025 Neurosci Bull doi:10.1007/s12264-025-01371-x (PMC12314303) and Supplementary Table S1; Zenodo 13712628 and data_description.docx.
+
 1.0.0 2026-10-06
   - Initial BIDS derivative packaging of Zenodo record 13712628 (authors' preprocessed epochs; no further processing).

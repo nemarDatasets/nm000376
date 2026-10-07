@@ -6,11 +6,11 @@
     "Description": "Patient label in the release and in Supplementary Table S1 of Moraresku et al. 2025"
   },
   "age": {
-    "Description": "Age in years (Supplementary Table S1)",
+    "Description": "Age in years (Moraresku et al. 2025 Neurosci Bull 41:1347-1363, doi:10.1007/s12264-025-01371-x, Supplementary Table S1). Cohort: 9 patients, mean (+/- SEM) age 37 +/- 3 years (Methods)",
     "Units": "year"
   },
   "sex": {
-    "Description": "Gender as reported in Supplementary Table S1",
+    "Description": "Gender as reported in Supplementary Table S1 (cohort: 4 women, 5 men; Methods)",
     "Levels": {
       "M": "male",
       "F": "female"
@@ -31,7 +31,7 @@
     }
   },
   "epilepsy_duration": {
-    "Description": "Epilepsy duration (Supplementary Table S1)",
+    "Description": "Epilepsy duration in years (Supplementary Table S1, 'Epilepsy duration (years)')",
     "Units": "year"
   },
   "suspected_seizure_zone": {
@@ -41,9 +41,25 @@
     "Description": "Epilepsy pathology (Supplementary Table S1; FCD = focal cortical dysplasia)"
   },
   "group": {
-    "Description": "Patients with drug-resistant epilepsy undergoing iEEG monitoring",
+    "Description": "Patients with drug-resistant epilepsy undergoing iEEG monitoring for localisation of the seizure onset zone before surgery at the Motol Epilepsy Center, Prague; all had normal or corrected-to-normal vision (Moraresku et al. 2025 Neurosci Bull 41:1347-1363, doi:10.1007/s12264-025-01371-x, Methods)",
     "Levels": {
       "patient": "epilepsy patient"
     }
+  },
+  "n_bipolar_channels": {
+    "Description": "Number of bipolar channels (adjacent-contact pairs) in this subject's release file after the authors removed faulty contacts and contacts in the seizure onset zone / heterotopic cortex (Zenodo 13712628, data.label). Derived from the release.",
+    "Units": "count"
+  },
+  "n_electrode_labels": {
+    "Description": "Number of distinct electrode labels (letter prefix of the channel names, e.g. 'A' in 'A1-A2'; suffix 'd'/'s' included where present) among the released bipolar channels. Derived from the release. The paper states that 11 to 15 electrodes were implanted per patient; label counts above 15 (sub-P1, sub-P2, sub-P3, sub-P9) are not explained by the source.",
+    "Units": "count"
+  },
+  "n_channels_mni_left": {
+    "Description": "Number of released bipolar channels whose authors' MNI x coordinate (channelInfo.MNI_x) is negative (left hemisphere in MNI space). Derived from the release; see README caveat for sub-P9.",
+    "Units": "count"
+  },
+  "n_channels_mni_right": {
+    "Description": "Number of released bipolar channels whose authors' MNI x coordinate (channelInfo.MNI_x) is positive (right hemisphere in MNI space). Derived from the release.",
+    "Units": "count"
   }
 }

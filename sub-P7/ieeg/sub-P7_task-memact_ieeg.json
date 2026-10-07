@@ -1,6 +1,7 @@
 {
   "TaskName": "memact",
-  "TaskDescription": "Delayed memory-guided action task: fixation (1.9-2.1 s), encoding (2 s; one object, triangle or square, shown at one of several positions), jittered delay (3.9-4.1 s), action/recall (2 s; joystick reach to the remembered position). Condition 2 'same' (remember position) / 3 'different' (remember position and identity, followed by a 2-alternative button question). Blocks of 10 trials; training trials first.",
+  "TaskDescription": "Delayed memory-guided action task: jittered fixation (1.9-2.1 s, white cross), encoding (2 s; central red cross and two objects, either two identical circles ('same', condition 2) or a square and a triangle ('different', condition 3), one always closer to the cross with a distance ratio of 1.5), jittered delay (3.9-4.1 s), action/recall (2 s, green cross; joystick reach to the remembered position of the object nearer to the cross). In 'different' trials a 2-s two-alternative question on the identity of the nearer object follows. 160 delayed trials in blocks of 10 of one condition, preceded by training blocks; 160 immediate trials were also run but are not in the release (Moraresku et al. 2025 Neurosci Bull 41:1347-1363, doi:10.1007/s12264-025-01371-x, Methods).",
+  "Instructions": "Participants were told to remember which object was closer to the central cross: its position (same condition) or its position and identity (different condition), and to reach for it with the joystick after the delay. The experiment began with a brief presentation explaining the task, then training blocks of five trials per condition with feedback after each trial; simple on-screen instructions about the upcoming condition were shown at the start of each block (Moraresku et al. 2025 Neurosci Bull 41:1347-1363, doi:10.1007/s12264-025-01371-x, Methods).",
   "InstitutionName": "Motol University Hospital, Motol Epilepsy Center",
   "InstitutionAddress": "Prague, Czechia",
   "ManufacturersModelName": "Quantum, NeuroWorks (medical amplifiers named in Moraresku et al. 2025)",
@@ -19,11 +20,17 @@
   "ElectrodeManufacturer": "DIXI Medical Instruments",
   "iEEGElectrodeInfo": "Semi-rigid depth electrodes, diameter 0.8 mm, 8-18 contacts of 2 mm length, 1.5 mm apart; 11-15 electrodes per patient",
   "iEEGPlacementScheme": "Stereotactic depth electrodes placed solely for clinical pre-surgical evaluation",
+  "iEEGElectrodeGroups": "Released bipolar channels grouped by electrode label (letter prefix of the channel name), 11 labels (bipolar channels per label): C (10), D (7), E (9), G (15), H (12), I (8), J (9), O (12), W (12), X (13), PC (8). Semi-rigid DIXI depth electrodes of 8-18 contacts; 11-15 electrodes implanted per patient (paper).",
   "SEEGChannelCount": 115,
   "ECOGChannelCount": 0,
   "EEGChannelCount": 0,
   "MiscChannelCount": 0,
   "RecordingType": "epoched",
   "EpochLength": 9.900390625,
-  "RecordingDuration": 1683.06640625
+  "RecordingDuration": 1683.06640625,
+  "iEEGGround": "n/a (not documented in the paper or the Zenodo release)",
+  "TriggerChannelCount": 0,
+  "ECGChannelCount": 0,
+  "EOGChannelCount": 0,
+  "EMGChannelCount": 0
 }

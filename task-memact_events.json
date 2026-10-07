@@ -1,6 +1,7 @@
 {
   "onset": {
-    "Description": "Encoding onset (time 0 of the authors' epoch) in seconds from the start of the concatenated file"
+    "Description": "Encoding onset (time 0 of the authors' epoch) in seconds from the start of the concatenated file",
+    "Units": "s"
   },
   "duration": {
     "Description": "Encoding phase duration (2 s, Moraresku et al. 2025)",
@@ -26,10 +27,10 @@
     "Description": "TrialInformationTable.TrialNumber (verbatim)"
   },
   "Condition": {
-    "Description": "TrialInformationTable.Condition",
+    "Description": "TrialInformationTable.Condition (data_description.docx: 2 = same objects, 3 = different objects; definitions from Moraresku et al. 2025 Neurosci Bull 41:1347-1363, doi:10.1007/s12264-025-01371-x, Methods)",
     "Levels": {
-      "2": "same objects (remember position)",
-      "3": "different objects (remember position and identity)"
+      "2": "same: two identical circles shown; remember the position of the circle closer to the central cross",
+      "3": "different: a square and a triangle shown; remember the position and identity of the object closer to the central cross (followed by a 2-alternative identity question: green 'A' button = triangle, red 'B' button = square)"
     }
   },
   "Correct": {
@@ -77,5 +78,11 @@
   },
   "n_channels_rejected": {
     "Description": "Number of channels flagged as rejected for this epoch in data.RjEpochChannel"
+  },
+  "StimulusPresentation": {
+    "SoftwareName": "PsychoPy3",
+    "SoftwareVersion": "v2020.1.3",
+    "ScreenRefreshRate": 60,
+    "Description": "15.6-inch TFT notebook monitor; responses with an Xbox wireless controller (joystick and buttons); TTL pulse to the iEEG trigger port at each trial start (Moraresku et al. 2025 Neurosci Bull 41:1347-1363, doi:10.1007/s12264-025-01371-x, Methods)"
   }
 }

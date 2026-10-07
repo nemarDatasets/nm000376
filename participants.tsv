@@ -1,10 +1,10 @@
-participant_id	source_id	age	sex	handedness	education	epilepsy_duration	suspected_seizure_zone	epilepsy_pathology	group
-sub-P1	P1	43	M	R	primary	33	R temporal and parietal lobes	suspected FCD I	patient
-sub-P2	P2	37	F	L	tertiary	13	bilateral temporal lobes	FCD I	patient
-sub-P3	P3	36	M	R	tertiary	12	R temporal and parietal lobes, insula	post-infectious gliosis	patient
-sub-P4	P4	24	F	L	primary	8	R temporal lobe	periventricular nodular heterotopy	patient
-sub-P5	P5	49	M	R	tertiary	27	bilateral temporal and parietal lobes	hippocampal sclerosis	patient
-sub-P6	P6	30	F	L	tertiary	19	L temporal lobe	periventricular nodular heterotopy	patient
-sub-P7	P7	46	M	R	primary	36	R occipital and parietal lobes	suspected FCD I	patient
-sub-P8	P8	30	M	L	primary	28	R operculo-insular and temporal lobe	FCD I	patient
-sub-P9	P9	36	F	R	tertiary	7	R temporal, parietal, and occipital lobes	suspected FCD II	patient
+participant_id	source_id	age	sex	handedness	education	epilepsy_duration	suspected_seizure_zone	epilepsy_pathology	group	n_bipolar_channels	n_electrode_labels	n_channels_mni_left	n_channels_mni_right
+sub-P1	P1	43	M	R	primary	33	R temporal and parietal lobes	suspected FCD I	patient	190	17	0	190
+sub-P2	P2	37	F	L	tertiary	13	bilateral temporal lobes	FCD I	patient	182	16	36	146
+sub-P3	P3	36	M	R	tertiary	12	R temporal and parietal lobes, insula	post-infectious gliosis	patient	109	16	0	109
+sub-P4	P4	24	F	L	primary	8	R temporal lobe	periventricular nodular heterotopy	patient	149	14	0	149
+sub-P5	P5	49	M	R	tertiary	27	bilateral temporal and parietal lobes	hippocampal sclerosis	patient	115	11	82	33
+sub-P6	P6	30	F	L	tertiary	19	L temporal lobe	periventricular nodular heterotopy	patient	171	14	147	24
+sub-P7	P7	46	M	R	primary	36	R occipital and parietal lobes	suspected FCD I	patient	115	11	0	115
+sub-P8	P8	30	M	L	primary	28	R operculo-insular and temporal lobe	FCD I	patient	174	15	26	148
+sub-P9	P9	36	F	R	tertiary	7	R temporal, parietal, and occipital lobes	suspected FCD II	patient	168	18	168	0
