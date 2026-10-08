@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Intracranial EEG from 9 adults during a memory-guided actions experiment (preprocessed epochs, Moraresku et al.)",
-  "description": "Preprocessed stereo-EEG epochs from 9 patients with drug-resistant epilepsy at the Motol Epilepsy Center in Prague, recorded during a delayed memory-guided action task. Participants remembered the position, and in some blocks the identity, of visual objects and then reached toward the remembered location with a joystick. The data are a BIDS derivative of the authors' Zenodo release. They contain bipolar-referenced epochs (-2 to 7.9 s around encoding onset), per-channel rejection labels, trial tables and MNI electrode coordinates. The recordings cover the inferior parietal lobule, ventral temporal cortex and hippocampus.",
-  "methods_description": "Semi-rigid depth electrodes (DIXI Medical) were implanted for clinical pre-surgical evaluation. Signals were recorded with Quantum NeuroWorks amplifiers at 2048 Hz and downsampled to 512 Hz. Preprocessing applied a 50 Hz notch filter with harmonics, removal of faulty and seizure-onset-zone contacts, and bipolar referencing between adjacent contacts. Data were then epoched around encoding onset. The task was presented with PsychoPy3 and synchronized to the iEEG with TTL pulses. Contacts were localized from post-implantation CT co-registered to MRI and normalized to MNI space with SPM12.",
+  "description": "Preprocessed stereo-EEG epochs from 9 patients with drug-resistant epilepsy at the Motol Epilepsy Center in Prague, recorded during a delayed memory-guided action task. Each patient has 170 bipolar-referenced epochs spanning -2 to 7.9 s around encoding onset. Recordings cover the inferior parietal lobule, ventral temporal cortex and hippocampus. The dataset is a BIDS derivative that re-packages the authors' Zenodo release without further processing.",
+  "methods_description": "Semi-rigid depth electrodes (DIXI Medical) were implanted for clinical pre-surgical evaluation. Signals were recorded at 2048 Hz with Quantum NeuroWorks amplifiers and downsampled to 512 Hz. A 50 Hz notch filter was applied with harmonics, faulty and seizure-onset-zone contacts were removed, and bipolar referencing was applied between adjacent contacts. In the delayed task, participants encoded the positions of two objects, waited through a delay, then reached with a joystick to the remembered position. Stimuli were presented with PsychoPy3, and task and iEEG were synchronised by TTL pulses.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -41,7 +41,9 @@
       "term": "stereo-EEG"
     },
     {
-      "term": "working memory"
+      "term": "Memory, Short-Term",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D008570"
     },
     {
       "term": "memory-guided action"
@@ -139,5 +141,5 @@
     ".vmrk",
     ".yml"
   ],
-  "source_hash": "2047da4c397e1d0e2139e6c056b301f89da4f27c23b45f1f82f21855468d22f5"
+  "source_hash": "a66b887fd7eea59ce044bc354c02fe4e1da66805e9fda0adfc7fe070b57d30e7"
 }
