@@ -35,7 +35,7 @@
     "https://doi.org/10.5281/zenodo.13712627",
     "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12314303/"
   ],
-  "DatasetDOI": "doi:10.5281/zenodo.13712628",
+  "DatasetDOI": "10.82901/nemar.nm000376",
   "Keywords": [
     "intracranial EEG",
     "stereo-EEG",
@@ -67,5 +67,6 @@
       "URL": "https://zenodo.org/records/13712628",
       "Version": "Zenodo record 13712628 (published 2024-10-29)"
     }
-  ]
+  ],
+  "Version": "1.0.0"
 }
