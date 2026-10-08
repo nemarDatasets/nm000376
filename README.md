@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000376-blue)](https://doi.org/10.82901/nemar.nm000376)
+
 # Intracranial EEG from 9 adults during a memory-guided actions experiment — preprocessed epochs (BIDS derivative)
 
 ## Overview
