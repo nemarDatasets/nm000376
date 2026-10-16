@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Intracranial EEG from 9 adults during a memory-guided actions experiment (preprocessed epochs, Moraresku et al.)",
-  "description": "Preprocessed stereo-EEG epochs from nine patients with drug-resistant epilepsy performing a delayed memory-guided action task at the Motol Epilepsy Center in Prague. The data are bipolar-referenced and notch-filtered, with 170 epochs per patient time-locked to encoding onset. Recordings cover the inferior parietal lobule, ventral temporal cortex and hippocampus, and were used to study interactions between the dorsal and ventral visual streams during working memory. This BIDS derivative re-packages the authors' Zenodo release without further processing.",
-  "methods_description": "Stereo-EEG was recorded with 11-15 semi-rigid depth electrodes per patient (DIXI Medical) using Quantum NeuroWorks amplifiers at 2048 Hz. Data were downsampled to 512 Hz, notch filtered at 50 Hz and harmonics, and bipolar-referenced between adjacent contacts. Contacts that were faulty or in the seizure onset zone were removed, and data were epoched from -2 to 7.898 s around encoding onset. In each trial of the delayed memory-guided action task, patients encoded the positions of two objects, waited through a delay, and then reached with a joystick to the remembered position. The task was presented with PsychoPy3, and task and iEEG were synchronized by TTL pulses. Contact positions were obtained from post-implantation CT co-registered to MRI and normalized to MNI space with SPM12.",
+  "description": "Preprocessed stereo-EEG epochs from nine patients with drug-resistant epilepsy performing a delayed memory-guided action task at the Motol Epilepsy Center in Prague. The derivative dataset contains bipolar-referenced, notch-filtered and downsampled epochs time-locked to encoding onset, with trial information, channel rejection labels and MNI electrode coordinates. It supports investigation of interactions between dorsal and ventral visual streams and the hippocampus during working memory and action.",
+  "methods_description": "Stereo-EEG was recorded with semi-rigid depth electrodes (DIXI Medical) using Quantum NeuroWorks amplifiers at 2048 Hz. The data were downsampled to 512 Hz, notch filtered at 50 Hz and harmonics, and bipolar referenced, with faulty and seizure-onset contacts removed. Data were epoched from -2 to 7.898 s around encoding onset. Patients performed a delayed memory-guided reaching task with a joystick, presented via PsychoPy. Contact positions were localized from CT co-registered to MRI and normalized to MNI space with SPM12.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -57,7 +57,7 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D006624"
     },
     {
-      "term": "dorsal and ventral visual streams"
+      "term": "visual streams"
     }
   ],
   "related_identifiers": [
@@ -111,9 +111,8 @@
       "award_number": "GAUK 248122 and 272221"
     },
     {
-      "funder_name": "ERDF",
-      "award_number": "CZ.02.01.01/00/22_008/0004643",
-      "award_title": "Brain Dynamics"
+      "funder_name": "ERDF-Project Brain Dynamics",
+      "award_number": "CZ.02.01.01/00/22_008/0004643"
     },
     {
       "funder_name": "Ministry of Health of the Czech Republic",
