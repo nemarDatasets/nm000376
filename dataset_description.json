@@ -1,5 +1,5 @@
 {
-  "Name": "Moraresku-2025-neural-10.1007/s12264-025-01371-x",
+  "Name": "Intracranial EEG from 9 adults during a memory-guided actions experiment (preprocessed epochs, Moraresku et al.)",
   "BIDSVersion": "1.10.0",
   "DatasetType": "derivative",
   "License": "CC-BY-4.0",
@@ -68,5 +68,5 @@
       "Version": "Zenodo record 13712628 (published 2024-10-29)"
     }
   ],
-  "Version": "1.0.1"
+  "Version": "1.0.2"
 }

@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
-  "title": "Moraresku-2025-neural-10.1007/s12264-025-01371-x",
+  "title": "Intracranial EEG from 9 adults during a memory-guided actions experiment (preprocessed epochs, Moraresku et al.)",
   "description": "Stereo-EEG recordings from nine patients with drug-resistant epilepsy at the Motol Epilepsy Center in Prague, performing a delayed memory-guided action task with joystick reaching. The derivative dataset repackages the authors' preprocessed, bipolar-referenced epochs (512 Hz, 170 epochs per patient, time-locked to encoding onset) in BIDS format. It supports investigation of interactions between dorsal and ventral visual streams and the hippocampus during working memory and memory-guided actions.",
   "methods_description": "Patients had 11-15 semi-rigid depth electrodes implanted for clinical pre-surgical evaluation, recorded with Quantum NeuroWorks amplifiers at 2048 Hz. Data were downsampled to 512 Hz, notch filtered at 50 Hz and harmonics, and bipolar referenced between adjacent contacts. Faulty contacts and those in the seizure onset zone were removed. Epochs were extracted from -2 to 7.898 s around encoding onset. Contact positions were obtained from post-implantation CT co-registered to MRI and normalized to MNI space with SPM12. The task was presented with PsychoPy3 and synchronized to the iEEG with TTL pulses.",
   "license": "CC-BY-4.0",
@@ -139,5 +139,5 @@
     ".vmrk",
     ".yml"
   ],
-  "source_hash": "a0e609d1db34e7e0e7e48603489618eb597e09184e0c19e0ac41c0cd342b60d0"
+  "source_hash": "87d05a491e5a4c13e79dd8e797d52e02444d8afb99fb925e8856630dc5558f1e"
 }
