@@ -84,6 +84,12 @@ R2018a (paper, Methods).
 - The number of electrode labels in the channel names exceeds the paper's "eleven to fifteen" electrodes per patient for
   sub-P1, sub-P2, sub-P3 and sub-P9 (16–18 labels); not explained by the source.
 
+Updated in version 1.0.3 by the depositors of this NEMAR copy (the published text above is kept unchanged; these items replace or extend it):
+
+- `ResponseTime` contains negative values in the source; they are kept as is. They are 5 of the 1530 non-empty values:
+  four in sub-P1 (trials 1, 8, 22 and 91, about -7.8 to -8.0 s, all with `Correct` = 0; trials 1 and 8 are training
+  trials) and one in sub-P6 (trial 60, -0.028 s, `Trials2Reject` = 1). The release does not explain them.
+
 ## How to load
 ```python
 from mne_bids import BIDSPath, read_raw_bids
