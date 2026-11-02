@@ -1,6 +1,7 @@
 1.0.3 2026-10-30
 
-  - List the negative response times
+  - README: the published note on negative ResponseTime values is kept unchanged; a separate paragraph after it
+    names the five affected trials (sub-P1 trials 1, 8, 22 and 91; sub-P6 trial 60). No data or sidecar change.
 
 1.0.2 2026-10-16
   - Restore the descriptive dataset Name recorded in the v1.0.0 history. Update generated metadata title and source hash.

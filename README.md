@@ -74,9 +74,7 @@ R2018a (paper, Methods).
 
 ## Known caveats
 - Units are labelled µV but the release does not state a unit (amplitudes are microvolt-scale).
-- `ResponseTime` contains negative values in the source; they are kept as is. They are 5 of the 1530 non-empty values:
-  four in sub-P1 (trials 1, 8, 22 and 91, about -7.8 to -8.0 s, all with `Correct` = 0; trials 1 and 8 are training
-  trials) and one in sub-P6 (trial 60, -0.028 s, `Trials2Reject` = 1). The release does not explain them.
+- `ResponseTime` contains negative values in the source; they are kept as is.
 - Rejection flags (`rejected_epochs`, `Trials2Reject`) are the authors' labels only; no data were removed.
 - Earlier versions of this README and the `*_ieeg.json` TaskDescription described the encoding display as one object
   (triangle or square) at one position; the paper's Methods describe two objects (two circles, or a square and a
@@ -85,6 +83,12 @@ R2018a (paper, Methods).
   168 released channels have negative MNI x (left hemisphere). The source does not explain this; neither value was changed.
 - The number of electrode labels in the channel names exceeds the paper's "eleven to fifteen" electrodes per patient for
   sub-P1, sub-P2, sub-P3 and sub-P9 (16–18 labels); not explained by the source.
+
+Updated in version 1.0.3 by the depositors of this NEMAR copy (the published text above is kept unchanged; these items replace or extend it):
+
+- `ResponseTime` contains negative values in the source; they are kept as is. They are 5 of the 1530 non-empty values:
+  four in sub-P1 (trials 1, 8, 22 and 91, about -7.8 to -8.0 s, all with `Correct` = 0; trials 1 and 8 are training
+  trials) and one in sub-P6 (trial 60, -0.028 s, `Trials2Reject` = 1). The release does not explain them.
 
 ## How to load
 ```python
